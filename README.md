@@ -1,20 +1,20 @@
-# python-challenge
-# BootCamp - Module 3 Challenge
+# PythonDataAnalysis
 
-Student Name - Anush De Costa
-Module 3 Challenge Name - PyBank and PyPoll Challenge
+![Main Iamge](./Images/Votes.jpg)
 
-# Main Instructions to Follow:
+## Introduction
+This exercise unfolds in three main segments:
+- Data Analysis and Text File Creation
+- PyBank Analysis
+- PyPoll Analysis
 
-In this project, I was given two data sets for analysis and printing out the outcome in the terminal as well as exporting a txt file.
-Applying python concepts to run analysis of PyBank and PyPoll file. Both of these challenges encompass a real-world situation.
+## Data Analysis and Text File Creation
+The initial phase of the exercise entailed analyzing two provided data sets. These data sets were processed using Python to print results in the terminal and concurrently export the results to a text file. This segment of the task is representative of scenarios encountered in the real world.
 
-# PyBank:
 
-In the first part of this week’s challenge, I have used a script for PyBank (main.py) that reads in a CSV file called budget_data.csv that contains financial data for a company, 
-and uses this data to compute and print several summary statistics, such as the total number of months of data, the total amount of profit or loss, 
-the average change in profit or loss over the entire time period, and the greatest increase and decrease in profit or loss. 
-It also writes these summary statistics to a text file called Financial_Analysis.txt to match the following.
+
+## PyBank Analysis
+The first segment of the exercise involved scripting a Python program named main.py for PyBank. This script reads the budget_data.csv file, which contains a company's financial data. It processes the data to compute and print several summary statistics, including the total months of data, the overall profit or loss, the average change in profit or loss over time, and the greatest increases and decreases in profit or loss. The summary statistics were also written to a text file named Financial_Analysis.txt. The final outcome mirrored the following format:
 
     Financial Analysis
     ----------------------------
@@ -24,12 +24,8 @@ It also writes these summary statistics to a text file called Financial_Analysis
     Greatest Increase in Profits: Aug-16 ($1862002)
     Greatest Decrease in Profits: Feb-14 ($-1825558)
 
-# PyPoll:
-
-In the second part of the weeks challenge similar to the first I have used a script for PyPoll (main.py) for an election analysis. It reads in a CSV file containing the election results, 
-and then processes that data to calculate the total number of votes, the names and number of votes for each candidate, and the percentage of votes each candidate received. 
-The script then prints the results to the terminal and saves them to a text file. The winner of the election is determined by the candidate who received the most votes. The output was
-scripted to match the following.
+## PyPoll Analysis
+Similar to the first segment, the second segment of the exercise involved scripting a Python program named main.py for PyPoll, aimed at election analysis. The script reads the election_data.csv file, containing election results, and processes the data to calculate the total votes, the names and vote counts for each candidate, and the percentage of votes each candidate received. The results were printed in the terminal and also saved to a text file. The candidate with the most votes was declared as the winner. The final outcome was crafted to resemble the following:
 
     Election Results
     -------------------------
@@ -42,24 +38,27 @@ scripted to match the following.
     Winner: Diana DeGette
     -------------------------
 
-# Main Issues Faced
+## Conclusion
+Despite the challenges encountered during the exercise, it served as a practical exploration of Python for data analysis, underlining its capabilities in processing and interpreting complex datasets.
 
-1.  One of the main challenges I faced was limiting the decimal count to 3 decimals in the PyPoll challenge... After many tests it was discovered that I was missing a simple " . " in my script. 
+## Tools
+- VS Code
+- Python
+- Excel
+- Terminal
 
-2.  Another big challenge was to match the PyPoll output in the same order of candidates. At first to resolve this issue I wrote the output script for each candidate, but this would have meant that if a 4th
-    candidate was added to the CSV then the script would not run. Therefore, I settle to use the sorted function instead. This ensured the candidates would always be put in alphabetical order
+## Files 
+- PyBank
+    - [PyBank Script](./PyBank/main.py)
+    - [Financial Analysis](./PyBank/analysis/Financial_Analysis.txt)
+    - [Budget Data](./PyBank/Resources/budget_data.csv)
+    
+- PyPoll
+    - [PyPoll Script](./PyPoll/main.py)  
+    - [Election Results](./PyPoll/analysis/Election_Results.txt)
+    - [Election Data](./PyPoll/Resources/election_data.csv)
 
-Files Uploaded
 
-1. PyBank Folder
-    1.1 Resources Subfolder
-        1.1.1 budget_data.csv
-    1.2 analysis Subfolder
-        1.1.2 Financial_Analysis.txt
-    1.3 main.py
-2. PyPoll Folder
-    2.1 Resources Subfolder
-        2.1.1 election_data.csv
-    2.2 analysis Subfolder
-        2.1.2 Election_Results.txt
-    2.3 main.py
+
+
+
