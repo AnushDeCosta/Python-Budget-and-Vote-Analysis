@@ -2,6 +2,9 @@
 
 ![Main Iamge](./Images/Votes.jpg)
 
+## Summary
+The PythonDataAnalysis project focuses on performing data analysis tasks using Python. The project is divided into three main segments: Data Analysis and Text File Creation, PyBank Analysis, and PyPoll Analysis. Each segment involves different analysis tasks and utilizes Python to process the data and generate results.
+
 ## Introduction
 This exercise unfolds in three main segments:
 - Data Analysis and Text File Creation
@@ -25,7 +28,7 @@ The first segment of the exercise involved scripting a Python program named main
     Greatest Decrease in Profits: Feb-14 ($-1825558)
 
 ## PyPoll Analysis
-Similar to the first segment, the second segment of the exercise involved scripting a Python program named main.py for PyPoll, aimed at election analysis. The script reads the election_data.csv file, containing election results, and processes the data to calculate the total votes, the names and vote counts for each candidate, and the percentage of votes each candidate received. The results were printed in the terminal and also saved to a text file. The candidate with the most votes was declared as the winner. The final outcome was crafted to resemble the following:
+Similar to the first segment, the second segment of the exercise involved scripting a Python program named main.py for PyPoll, aimed at election analysis. The script reads the election_data.csv file, containing election results, and processes the data to calculate the total votes, the names and vote count for each candidate, and the percentage of votes each candidate received. The results were printed in the terminal and also saved to a text file. The candidate with the most votes was declared the winner. The final outcome was crafted to resemble the following:
 
     Election Results
     -------------------------
